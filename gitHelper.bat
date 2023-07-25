@@ -4,6 +4,7 @@ echo,
 echo the current branch name is...
 git rev-parse --abbrev-ref HEAD
 git add .
+echo,
 @SET /P info=請輸入你的commit訊息:
 git commit -m "%info%"
 git push
