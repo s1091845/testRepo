@@ -10,6 +10,7 @@ git commit -m "%info%"
 git push
 echo,
 cls
+echo,
 echo Waiting for 4 seconds, I have something to show you...
 timeout /t 4
 color a
