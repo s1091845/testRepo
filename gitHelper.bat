@@ -8,8 +8,6 @@ echo,
 @SET /P info=請輸入你的commit訊息:
 git commit -m "%info%"
 git push
-echo,
-timeout /t 4
 cls
 echo,
 echo Waiting for 4 seconds, I have something to show you...
